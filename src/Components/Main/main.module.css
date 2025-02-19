@@ -1,0 +1,17 @@
+.mainContainer {
+  align-items: center;
+  background-color: rgb(173, 218, 219);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px 50px;
+}
+.container_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 45px;
+}

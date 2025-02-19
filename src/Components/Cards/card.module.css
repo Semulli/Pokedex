@@ -1,0 +1,36 @@
+.card {
+  align-items: center;
+  background-color: rgb(173, 218, 219);
+  border-radius: 15px;
+  box-shadow: 0 0 4px 4px #2f3d49;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+
+  width: 250px;
+  padding: 10px;
+}
+.card_title {
+  color: rgb(208, 121, 121);
+  font-size: 22px;
+  font-weight: 700;
+}
+.card_type {
+  color: rgb(208, 121, 121);
+  font-size: 18px;
+}
+.card_btn {
+  font-size: 16px;
+  padding: 8px 16px;
+  font-weight: 500;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+.card_btn:hover {
+  background-color: rgb(220, 102, 102);
+  transition: all 0.2s;
+}
